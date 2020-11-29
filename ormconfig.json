@@ -1,0 +1,12 @@
+{
+  "name": "tmore",
+  "type": "mysql",
+  "host": "192.168.35.40",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "tmore",
+  "entities": ["src/entity/*.ts"],
+  "synchronize": true,
+  "logging": true
+}
